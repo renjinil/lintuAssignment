@@ -3,52 +3,52 @@
       "Photoshop":{  
         "name":"Photoshop",
          "description":"Adobe Photoshop is a raster graphics editor developed and published by Adobe Systems for macOS and Windows.",
-         "url":"/images/Photoshop.jpg"
+         "url":"images/Photoshop.jpg"
       },
      "Blender":{  
         "name":"Blender",
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/blender.jpg"
+         "url":"images/blender.jpg"
       },
       "Ms-Office":{  
          "name":"Ms-Office",
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/msoffice.jpg"
+         "url":"images/msoffice.jpg"
       },
      "Xampp": {  
          "name":"XAMPP",
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/XAMPP.png"
+         "url":"images/XAMPP.png"
       },
       "Visual Studio":{  
         "name":"Visual Studio",
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/visualstudio.png"
+         "url":"images/visualstudio.png"
       },
      "Sublime Text Editor": {  
       "name":"Sublime Text Editor",
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/sublime.jpg"
+         "url":"images/sublime.jpg"
       },
       "Adobe Reader":{  
          "name":"Adobe Reader",
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/adobereader.jpg"
+         "url":"images/adobereader.jpg"
       },
       "Git hub":{ 
       "name":"Git Hub", 
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/github.png"
+         "url":"images/github.png"
       },
       "Fl Studio":{ 
       "name":"Fl Studio", 
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/fl.png"
+         "url":"images/fl.png"
       },
       "Dreamweaver":{ 
       "name":"Dreamweaver", 
          "description":"Blender is a professional free and open-source 3D computer graphics software product used for creating animated films, visual effects, art, 3D printed models, interactive 3D applications and video games",
-         "url":"/images/dreamweaver.png"
+         "url":"images/dreamweaver.png"
       }
    
 }
