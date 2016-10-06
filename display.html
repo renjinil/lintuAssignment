@@ -1,0 +1,47 @@
+
+<style type="text/css">
+#zoomd{
+	width: 200px;
+	height: 200px;
+	    margin-left: 565px;
+}
+#disp_div{
+	display: inline-block;
+	border:8px solid gray;
+	border-radius: 10px;
+	align-content: center;
+	  box-shadow: 10px 10px 5px #888888;
+	/*  -webkit-box-shadow: inset 18px -14px 170px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 18px -14px 170px -9px rgba(0,0,0,0.75);
+box-shadow: inset 18px -14px 170px -9px rgba(0,0,0,0.75);*/
+
+-webkit-box-shadow: 18px -14px 170px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px -14px 170px -9px rgba(0,0,0,0.75);
+box-shadow: 18px -14px 170px -9px rgba(0,0,0,0.75);
+
+
+}	
+h1{
+	text-align: center;
+	    padding-left: 80px;
+	    color: #fff;
+	    font-size: 30px;
+	    font-weight: bold;
+	    font-family: arial;
+	    background-color: #000;
+}
+p{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: justify;
+	text-indent: 20px;
+}
+
+</style>
+<div id="disp_div">
+<h1>{{disp.name}}</h1>
+<img src="{{disp.url}}" id="zoomd">
+<p>{{disp.description}}</p>
+</div>
+	
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ui-router</title>
+	<script src="node_modules\angular/angular.js"></script>
+    <script src="node_modules\angular-ui-router\release/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+	<style type="text/css">
+		a{
+			text-decoration: none;
+		}
+		ul li{
+			list-style-type: none;
+			display: inline-block;
+				width: 300px;
+				margin:20px 0px 20px 20%;			
+		}
+		img{
+			width: 30px;
+			height: 30px;
+	      vertical-align: middle;
+
+		}
+	</style>
+</head>
+<body ng-app="routerapp" >
+<ul>
+	<li><a ui-sref="display({soft:'Photoshop'})"><img src='images/photoshop.jpg'>Photoshop</a></li>
+	<li><a ui-sref="display({soft:'Blender'})"><img src='images/blender.jpg'>Blender</a></li>
+	<li><a ui-sref="display({soft:'Ms-Office'})"><img src='images/msoffice.jpg'>Ms-Office</a></li>
+	<li><a ui-sref="display({soft:'Xampp'})"><img src='images/XAMPP.png'>Xampp</a></li>
+	<li><a ui-sref="display({soft:'Visual Studio'})"><img src='images/visualstudio.png'>Visual Studio</a></li>
+	<li><a ui-sref="display({soft:'Sublime Text Editor'})"><img src='images/sublime.jpg'>Sublime Text Editor</a></li>
+	<li><a ui-sref="display({soft:'Adobe Reader'})"><img src='images/adobereader.jpg'>Adobe Reader</a></li>
+	<li><a ui-sref="display({soft:'Git hub'})"><img src='images/github.png'>Git hub</a></li>
+	<li><a ui-sref="display({soft:'Fl Studio'})"><img src='images/fl.png'>Fl Studio</a></li>
+	<li><a ui-sref="display({soft:'Dreamweaver'})"><img src='images/dreamweaver.png'>Dreamweaver</a></li>
+</ul>
+<div ui-view>
+</div>
+ <!-- <a ui-sref="display">State 1</a>
+ -->
+</body>
+</html>
